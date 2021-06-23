@@ -15,7 +15,8 @@
            <section>      
                 <div class='row'>
                     <div class='col'>
-                       <div class='input-container'>
+                    <form action='/action_page.php'>
+                        <div class='input-container'>
                             <i class='fa fa-user icon'></i>
                             <input class='input-field' type='text' placeholder='Username' name='username'>
                         </div>
@@ -23,37 +24,35 @@
                            <i class='fa fa-lock icon'></i>
                             <input class='input-field' type='password' placeholder='Password' name='password'>
                         </div>
-                    </div>
-                    
+                      
+                        <div>
+                        <label>
+                               
+                        Forgot password?
+                        
+                        </label>
+                        <button  type='submit' class='btn'>
+                           SIGN IN
+                        </button>
+                        </div>
+
+
+                        </form>
+                        </div>
+                  <div class='line'>
+                    </div>   
                     <div class='col'>
-                           
-                    <div class='logo'>LOGO</div>
+                      
+                    <div class='logo'>
+                    LOGO
+                    </div>
+
                     </div>
                 </div>
            </section>
      </div>      
      ";
     ?>
-
-<form action="/action_page.php">
-  <h2>Register Form</h2>
-  <div class="input-container">
-    <i class="fa fa-user icon"></i>
-    <input class="input-field" type="text" placeholder="Username" name="usrnm">
-  </div>
-
-  <div class="input-container">
-    <i class="fa fa-envelope icon"></i>
-    <input class="input-field" type="text" placeholder="Email" name="email">
-  </div>
-
-  <div class="input-container">
-    <i class="fa fa-key icon"></i>
-    <input class="input-field" type="password" placeholder="Password" name="psw">
-  </div>
-
-  <button type="submit" class="btn">Register</button>
-</form>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
   <script></script>
 </body>

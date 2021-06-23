@@ -13,11 +13,20 @@ section{
     width: 100%;
     background-color:rgb(1, 1, 252);
 }
+.line{
+    height: 150px;
+    width: 1px;
+    background-color: mintcream;
+    margin-right: 10px;
+
+}
 .logo{
     color:rgb(255, 255, 255); 
     font-size: 87px;
+    font-family: sans-serif;
     position: relative;
     margin-top: 5px;
+    padding-left: 40px;
 }
 .row{
   
@@ -55,3 +64,27 @@ section{
   .input-field:focus {
     border: 2px solid dodgerblue;
   }
+  .button {
+
+    background-color: black;
+    color: blanchedalmond;
+   padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    float: right;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #f1f1f1;
+  }
+
+.btn{
+    float: right;
+    background-color: black;
+    color: blanchedalmond;
+}
+label{
+    font-family: sans-serif;   
+}
