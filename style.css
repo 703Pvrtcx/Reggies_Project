@@ -1,90 +1,84 @@
-#login-container{
-
-    background-color: rgb(1, 1, 252);
-    color: #fff;
-    position: relative;
-    display: inline;
+.container{
+  background-color: rgb(26, 76, 168);
+  height: 95vh;
+  width: 100%;
+ display: flex;
+  justify-content: center;
+  padding: 150px;
 }
-section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 97vh;
-    width: 100%;
-    background-color:rgb(1, 1, 252);
+.sign-in{
+  width:  40%;
+  float: left;
+  padding-right: 40px;  
 }
-.line{
-    height: 150px;
-    width: 1px;
-    background-color: mintcream;
-    margin-right: 10px;
-
+.vertical-line{
+  background-color: rgb(255, 255, 255);
+  width: 2px;
+  height: 165px;  
 }
 .logo{
-    color:rgb(255, 255, 255); 
-    font-size: 87px;
-    font-family: sans-serif;
-    position: relative;
-    margin-top: 5px;
-    padding-left: 40px;
+
+  padding-left: 50px;
+  padding-top: 30px;
+  float: right;
+  /* width: 30%; */
+  color: white;
+  font-size: 78px;
 }
-.row{
-  
-    width: 65%; 
-    display: flex;
-}
-.col{
-    vertical-align: middle;
-    width: 50%;
-    justify-content: right;
-    align-items: right;
-    margin-right: 40px;
-}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
 
 .input-container {
-    display: -ms-flexbox; 
-    display: flex;
-    margin-bottom: 15px;
-  }
-  .icon {
-    padding: 10px;
-    background: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    min-width: 50px;
-    font-size:28px;
-    text-align: center;
-  }
-  
-  .input-field {
-    width: 100%;
-    padding: 10px;
-    outline: none;
-  }
-  
-  .input-field:focus {
-    border: 2px solid dodgerblue;
-  }
-  .button {
-
-    background-color: black;
-    color: blanchedalmond;
-   padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    margin: 4px 2px;
-    float: right;
-    cursor: pointer;
-  }
-  
-  .button:hover {
-    background-color: #f1f1f1;
-  }
-
-.btn{
-    float: right;
-    background-color: black;
-    color: blanchedalmond;
+display: -ms-flexbox; /* IE10 */
+display: flex;
+width: 100%;
+margin-bottom: 15px;
 }
-label{
-    font-family: sans-serif;   
+
+.icon {
+padding: 10px;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+min-width: 50px;
+font-size:28px;
+text-align: center;
+}
+
+.input-field {
+width: 100%;
+  height: 50px;
+padding: 10px;
+outline: none;
+border: white;
+
+}
+.input-field:focus {
+border: 1px solid rgb(255, 255, 255);
+}
+.forget-password a{
+  font-size: 18px;
+  color: rgb(182, 178, 178);
+  padding-top: 50px;
+}
+
+.buttom-container {
+  margin-top: 50px;
+  display: inline-block;
+  margin-top:90px;
+}
+/* Set a style for the submit button */
+.btn {
+background-color: rgb(0, 0, 0);
+color: white;
+padding: 10px 15px;
+float: right;
+border: none;
+cursor: pointer;
+/* width: 100%; */
+opacity: 0.9;
+}
+
+.btn:hover {
+opacity: 1;
 }
